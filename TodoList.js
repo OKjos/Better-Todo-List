@@ -21,7 +21,7 @@ function renderTodoList() {
         renderTodoList();
     });
   });
-}
+};
 
 document.querySelector('.js-add-todo-button').addEventListener('click', () => {
   addTodo();
@@ -40,17 +40,7 @@ function addTodo() {
   });
   inputElement.value = '';
   renderTodoList();
-}
-
-
-
-
-
-
-
-
-
-
+};
 
 
 document.getElementById('myDropdown').addEventListener('change', function() {
@@ -66,7 +56,4 @@ document.getElementById('myDropdown').addEventListener('change', function() {
   console.log('chance:', chance);
   console.log(document.getElementById('myDropdown'))
   console.log(document.getElementById('cost-1'))
-})
-
-
-//dfgdfgdfg
+});
