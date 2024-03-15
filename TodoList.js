@@ -1,4 +1,4 @@
-
+let todoList = [];
 renderTodoList();
 function renderTodoList() {
   let todoListHTML = '';
@@ -41,19 +41,3 @@ function addTodo() {
   inputElement.value = '';
   renderTodoList();
 };
-
-
-document.getElementById('myDropdown').addEventListener('change', function() {
-  console.log('change')
-  let selectedId = this.value;
-  console.log(selectedId);
-
-  let cost1Element = document.getElementById('cost-1');
-  let cost1Value = cost1Element.dataset.cost; 
-  console.log('test');
-
-  const chance = (100 * unitsInPlayInput) / cost1Value;
-  console.log('chance:', chance);
-  console.log(document.getElementById('myDropdown'))
-  console.log(document.getElementById('cost-1'))
-});
