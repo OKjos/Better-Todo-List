@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(53, 53, 53);
+}
+
+.container {
+  text-align: center;
+  margin-top: 10%;
+  justify-content: space-between;
+}
+
+.container input {
+  flex: 1;
+  margin-right: 20px;
+  width: 15%;
+  height: 30px;
+  text-align: center;
+}
+
+.container button {
+  flex: 0 0 auto;
+  width: 10%;
+  height: 30px;
+}
+
+
+.name-input {
+  border-radius: 5px;
+}
+
+.due-date-input {
+  border-radius: 5px;
+}
+
+.todo-grid {
+  text-align: center;
+  margin-top: 5%;
+  color: white;
+}
